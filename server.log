@@ -1,0 +1,84 @@
+$ next dev
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:3000
+   - Network:      http://169.254.0.21:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 2.5s
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 1835ms (182 modules)
+ ○ Compiling / ...
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (108kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ✓ Compiled / in 13.1s (1604 modules)
+ GET / 200 in 14649ms
+ ✓ Compiled in 1657ms (725 modules)
+ ⚠ Cross origin request detected from levateai-dashboard-3-2.lindy.site to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /sign-in ...
+ ✓ Compiled /sign-in in 4.2s (1763 modules)
+ GET /sign-in 200 in 5001ms
+ ○ Compiling /sign-up ...
+ ✓ Compiled /sign-up in 921ms (1792 modules)
+ GET /sign-up 200 in 1129ms
+ GET /sign-up 200 in 382ms
+ GET /sign-in 200 in 170ms
+ GET /sign-in 200 in 164ms
+ GET /sign-in 200 in 139ms
+ GET /sign-in 200 in 149ms
+ GET /sign-in 200 in 110ms
+ ✓ Compiled in 260ms (182 modules)
+ ○ Compiling /onboarding ...
+ ✓ Compiled /onboarding in 2s (1815 modules)
+ GET /onboarding 200 in 2831ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (108kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ○ Compiling /dashboard/workflows ...
+ ✓ Compiled /dashboard/workflows in 5.5s (2003 modules)
+ ⨯ ReferenceError: SidebarItem is not defined
+    at DashboardLayout (app/dashboard/layout.tsx:189:10)
+  187 |                   <DropdownMenuItem asChild>
+  188 |                     <Link href="/dashboard/settings">
+> 189 |         <SidebarItem href="/dashboard/analytics" icon={BarChart3} label="Analytics" />
+      |          ^
+  190 |                       <User className="mr-2 h-4 w-4" />
+  191 |                       Profile
+  192 |                     </Link> {
+  digest: '1152416058'
+}
+ GET /dashboard/workflows 500 in 6372ms
+ ✓ Compiled in 1803ms (2017 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /dashboard/workflows 200 in 830ms
+ GET /sign-in 200 in 81ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1806ms (1108 modules)
+ GET /favicon.ico 200 in 2592ms
+ GET /sign-in 200 in 1635ms
+ GET /dashboard/workflows 200 in 337ms
+ GET /sign-in 200 in 153ms
+ GET /sign-in 200 in 164ms
+ ✓ Compiled in 244ms (182 modules)
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1281ms (2031 modules)
+ GET /dashboard 200 in 1989ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 193ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1038ms (2036 modules)
+ GET /api/placeholder/32/32 404 in 1362ms
+ GET /sign-in 200 in 339ms
+ GET /dashboard/workflows 200 in 85ms
+ GET /sign-in 200 in 65ms
+ ○ Compiling /dashboard/integrations ...
+ ✓ Compiled /dashboard/integrations in 2.9s (2024 modules)
+ GET /dashboard/integrations 200 in 3348ms
+ GET /dashboard/integrations 200 in 68ms
+ GET /dashboard/integrations 200 in 51ms
+ ○ Compiling /dashboard/settings ...
+ ✓ Compiled /dashboard/settings in 2.6s (2055 modules)
+ GET /dashboard/settings 200 in 2770ms
+ GET /api/placeholder/80/80 404 in 312ms
+ ✓ Compiled in 3.4s (953 modules)
+ GET /sign-in 200 in 96ms
+ GET /dashboard/settings 200 in 66ms
